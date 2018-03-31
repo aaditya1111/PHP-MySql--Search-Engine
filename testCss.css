@@ -1,0 +1,90 @@
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+p {
+  font-size: 13px;
+}
+
+.max-width{
+  width: 100%;
+}
+
+.row .first-col{
+  width: 25%;
+}
+
+.row .second-col{
+  background-color: red;
+  width: 75%;
+}
+
+.row{
+  width:100%;
+}
+a:hover .card-outmore {
+  background:  #848482 ;
+  color: #fff;
+}
+
+a:hover .card-heading {
+  background:  #3498db; 
+  color: #fff;
+}
+
+a:hover .thecard {
+  box-shadow: 0 10px 50px rgba(0,0,0,.6);
+}
+
+body{
+  background:  #f9e79f ;
+}
+.thecard {
+  float: left;
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0 1px 30px rgba(0,0,0,.4);
+  display: block;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.card-heading {
+  padding: 10px 25px 10px 25px;
+  background:  #17202a;
+  color: #fff;
+  display: inline-table;
+  width: 250px;
+  font-size: 20px;
+  transition: 400ms ease;
+}
+
+.card-caption {
+  position: relative;
+  background: #ffffff;
+  padding: 5px 10px 5px 10px;
+}
+
+.card-outmore {
+  padding: 10px 25px 10px 25px;
+  border-radius: 0px 0px 4px 4px;
+  border-top: 1px solid #e0e0e0;
+  background: #efefef;
+  color: #222;
+  display: inline-table;
+  width: 250px;
+  transition: 700ms ease;
+}
+.card-outmore h5 {
+  float: left;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h5 {
+  margin:0;
+}

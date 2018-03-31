@@ -1,0 +1,30 @@
+input[type="text"]{
+	font-size: 30px;
+}
+
+input[name="search_box"]{
+  width: 50%;
+}
+
+input[type="submit"]{
+  font-size: 30px;
+}
+
+input[type="text"]:focus{
+	outline: none;	
+}
+
+#top_box {
+  background-color: red;
+}
+
+#top_form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#photo {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 37px;
+}
